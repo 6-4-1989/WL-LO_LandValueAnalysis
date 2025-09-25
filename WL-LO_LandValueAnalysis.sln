@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandValueAnalysis.Views", "LandValueAnalysis.Views\LandValueAnalysis.Views.csproj", "{DCE8BAD2-BD67-4F0E-BBAE-80B17635E656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandValueAnalysis.ViewModels", "LandValueAnalysis.ViewModels\LandValueAnalysis.ViewModels.csproj", "{E30209DF-C7FA-4695-AE65-35DBED7419CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandValueAnalysis.Services", "LandValueAnalysis.Services\LandValueAnalysis.Services.csproj", "{15000B9C-6EB2-414A-B83E-E93E1F517AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandValueAnalysis.Models", "LandValueAnalysis.Models\LandValueAnalysis.Models.csproj", "{52192DC2-9A46-48C4-9383-B764CD20B9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandValueScraper", "LandValueScraper\LandValueScraper.csproj", "{1B688ECB-FCF6-490A-AD73-2359BD0853DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLandValueScraper", "TestLandValueScraper\TestLandValueScraper.csproj", "{54FC8AB7-5C4C-41B8-AA46-1E0D398A6C35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE8BAD2-BD67-4F0E-BBAE-80B17635E656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE8BAD2-BD67-4F0E-BBAE-80B17635E656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE8BAD2-BD67-4F0E-BBAE-80B17635E656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE8BAD2-BD67-4F0E-BBAE-80B17635E656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30209DF-C7FA-4695-AE65-35DBED7419CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30209DF-C7FA-4695-AE65-35DBED7419CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30209DF-C7FA-4695-AE65-35DBED7419CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30209DF-C7FA-4695-AE65-35DBED7419CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15000B9C-6EB2-414A-B83E-E93E1F517AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15000B9C-6EB2-414A-B83E-E93E1F517AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15000B9C-6EB2-414A-B83E-E93E1F517AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15000B9C-6EB2-414A-B83E-E93E1F517AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52192DC2-9A46-48C4-9383-B764CD20B9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52192DC2-9A46-48C4-9383-B764CD20B9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52192DC2-9A46-48C4-9383-B764CD20B9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52192DC2-9A46-48C4-9383-B764CD20B9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B688ECB-FCF6-490A-AD73-2359BD0853DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B688ECB-FCF6-490A-AD73-2359BD0853DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B688ECB-FCF6-490A-AD73-2359BD0853DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B688ECB-FCF6-490A-AD73-2359BD0853DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FC8AB7-5C4C-41B8-AA46-1E0D398A6C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FC8AB7-5C4C-41B8-AA46-1E0D398A6C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FC8AB7-5C4C-41B8-AA46-1E0D398A6C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FC8AB7-5C4C-41B8-AA46-1E0D398A6C35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F96A5C5-44C1-4710-AF80-DB0C0C44C167}
+	EndGlobalSection
+EndGlobal
